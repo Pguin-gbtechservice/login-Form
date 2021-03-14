@@ -12,6 +12,9 @@
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
 <style type="text/css">
+ body{
+	 color:#320061;
+} 
 .login-container{
     margin-top: 5%;
     margin-bottom: 5%;
@@ -119,20 +122,20 @@ background-color:#e9f6fd;
     
     <div class="form-group">
     	<div class="input-group-prepend">
-		    <span class="input-group-text"> <i class="fa fa-envelope"></i>Email ID: </span>
+		    <span class="input-group-text"> <i class="fa fa-envelope"></i> Email ID: </span>
 		 </div>
         <input name="" class="form-control" placeholder="Email address" type="email">
     </div> <!-- form-group// -->
     <div class="form-group">
     	<div class="input-group-prepend">
-		    <span class="input-group-text"> <i class="fa fa-phone"></i>Phone Number: </span>
+		    <span class="input-group-text"> <i class="fa fa-phone"></i> Phone Number: </span>
 		</div>
     	<input name="" class="form-control" placeholder="Phone number" type="text">
     </div> <!-- form-group// -->
     
     <div class="form-group">
     	<div class="input-group-prepend">
-		    <span class="input-group-text"> <i class="fa fa-lock"></i>Create Password:</span>
+		    <span class="input-group-text"> <i class="fa fa-lock"></i> Create Password:</span>
 		</div>
         <input class="form-control" placeholder="Create password" type="password">
     </div> <!-- form-group// -->
@@ -146,7 +149,7 @@ background-color:#e9f6fd;
     <div class="form-group">
         <button type="submit" class="btn btn-primary btn-block"> Create Account  </button>
     </div> <!-- form-group// -->      
-    <p class="text-center">Have an account? <a href="">Log In</a> </p>
+    <p class="text-center">Have an account? <a href=""style="color: #405D9D;">Log In</a> </p>
     </form>                
                        
                 <div class="col-md-3"></div>
